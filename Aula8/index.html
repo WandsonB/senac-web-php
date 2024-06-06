@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora com PHP</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <form action="calc.php" method="post">
+            <h1>Calculadora PHP</h1>
+
+            <p>Digite os numeros desejados e selecione a operação desejada</p>
+
+            <div class="imp_text">
+                <label for="num1">Numero 1</label>
+                <input type="text" class="inp" id="num1" name="num1" required>
+            </div>
+
+            <div class="imp_text">
+                <label for="num2">Numero 2</label>
+                <input type="num2" class="inp" id="num2" name="num2" required>
+            </div>
+
+            <div class="impSubmit">
+                <button class="btn_submit" type="submit" name="somar">Somar</button>
+                <button class="btn_submit" type="submit" name="subtrair">Subtrair</button>
+                <button class="btn_submit" type="submit" name="dividir">Dividir</button>
+                <button class="btn_submit" type="submit" name="multiplicar">Multiplicar</button>
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>
