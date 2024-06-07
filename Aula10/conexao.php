@@ -1,3 +1,4 @@
+
 <?php
 // Dados de conexão com o banco de dados
 $servername = "localhost"; // Nome do servidor

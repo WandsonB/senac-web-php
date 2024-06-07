@@ -1,6 +1,6 @@
 <?php
 
-require_once "../conexao.php";
+require_once "./conexao.php";
 
 $comando_sql = "SELECT * FROM usuarios";
 $result = $conn->query($comando_sql);
@@ -23,7 +23,7 @@ $conn->close();
     	<div id="user-list">
             <?php
                 if ($result->num_rows > 0 ){
-                    echo "<table>";
+                    echo "<table border='1'>";
                     echo "<tr class='list-group list-group-horizontal'><th>ID</th><th>Name</th><th>Email</th><th>Ações</th></tr>";
                     while ($row = $result->fetch_assoc()) {
                         echo "<tr class='list-group list-group-horizontal'>";
@@ -32,7 +32,7 @@ $conn->close();
                         echo "<td class='list-group-item'>" . $row['email'] ."</td>";
                         echo "<td class='list-group-item'>";
                         echo "<button class='btn btn-primary' onclick=\"window.location.href='atualizar.php?id=" . $row['id'] . "'\">Atualizar</button>";
-                        echo "<button class='btn btn-primary' onclick=\"window.location.href='deletar.php?id=" . $row['id'] . "'\">Atualizar</button>";
+                        echo "<button class='btn btn-primary' onclick=\"window.location.href='deletar.php?id=" . $row['id'] . "'\">Deletar</button>";
                         echo "</td>";
                         echo "</tr class='list-group list-group-horizontal'>";
                     }
