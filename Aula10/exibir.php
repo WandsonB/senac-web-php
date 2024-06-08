@@ -19,7 +19,7 @@ $conn->close();
 <body>
     <div class="container">
         <h2>Lista de usuarios</h2>
-        <button onclick="window.location.href='../index.html'">Voltar</button>
+        <button onclick="window.location.href='./index.html'">Voltar</button>
     	<div id="user-list">
             <?php
                 if ($result->num_rows > 0 ){
@@ -27,21 +27,20 @@ $conn->close();
                     echo "<tr class='list-group list-group-horizontal'><th>ID</th><th>Name</th><th>Email</th><th>Ações</th></tr>";
                     while ($row = $result->fetch_assoc()) {
                         echo "<tr class='list-group list-group-horizontal'>";
-                        echo "<td class='list-group-item'>" . $row['id'] . "</td>";
-                        echo "<td class='list-group-item'>" . $row['nome'] . "</td>";
-                        echo "<td class='list-group-item'>" . $row['email'] ."</td>";
-                        echo "<td class='list-group-item'>";
-                        echo "<button class='btn btn-primary' onclick=\"window.location.href='atualizar.php?id=" . $row['id'] . "'\">Atualizar</button>";
-                        echo "<button class='btn btn-primary' onclick=\"window.location.href='deletar.php?id=" . $row['id'] . "'\">Deletar</button>";
-                        echo "</td>";
+                            echo "<td class='list-group-item'>" . $row['id'] . "</td>";
+                            echo "<td class='list-group-item'>" . $row['nome'] . "</td>";
+                            echo "<td class='list-group-item'>" . $row['email'] ."</td>";
+                            echo "<td class='list-group-item'>";
+                                echo "<button class='btn btn-primary' onclick=\"window.location.href='atualizar.php?id=" . $row['id'] . "'\">Atualizar</button>";
+                                echo "<button class='btn btn-primary' onclick=\"window.location.href='deletar.php?id=" . $row['id'] . "'\">Deletar</button>";
+                            echo "</td>";
                         echo "</tr class='list-group list-group-horizontal'>";
                     }
                     echo "</table>";
                     } else {
                         echo "<p>Nenhum usuário encontrado.</p>";
                     }
-                    echo "</table>";
-                
+                    echo "</table>";  
             ?>
         </div>
     </div>

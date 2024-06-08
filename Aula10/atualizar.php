@@ -34,8 +34,7 @@
         <form action="./atualizar_usuario.php" method="POST">
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Name</label>
-                <input type="text" class="form-control" id="exampleInputPassword1" name="name" value="<?php echo htmlspecialchars($nome);?>"
-                >
+                <input type="text" class="form-control" id="exampleInputPassword1" name="name" value="<?php echo htmlspecialchars($nome);?>">
             </div>
         
             <div class="mb-3">
@@ -44,7 +43,7 @@
             </div>
 
 
-            <a href="./aula10/exibir.php">Voltar</a><br>
+            <a href="./exibir.php">Voltar</a><br>
             <button type="submit" class="btn btn-primary">Atualizar</button>
 
         </form>
