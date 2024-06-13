@@ -1,0 +1,14 @@
+-------------- O QUE PRECISA ---------------
+parte do usuario, funcionario, adm
+adm gerenciar tudo, adicionar, excluir/desativar cadastro...
+usuario: se cadastrar e ver seus agendamentos
+funcionario ver seus servicos
+
+-------------- PRÓXIMOS PASSOS ---------------
+- criar arquivo php para adicionar serviços ao bd
+- atualizar pagina para usar o banco de dados para exibir os servicos disponiveis na tela principal
+-criar botao na tela inicial para login/cadastro do usuário
+
+
+-------------- CONCLUIDOS ---------------
+criar pagina para adicionar servicos
