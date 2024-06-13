@@ -6,10 +6,9 @@
         $database = "atendimento";
     
     // COMANDO PARA FAZER A CONEXAO POR MEIO DA FERRAMENTA MYSQLI, PDO, ODBC, SQLSRV.
-    $connect = mysqli($$servername, $username, $password, $database)
+    $connect = mysqli($$servername, $username, $password, $database);
 
     //  VERIFICAR CONEXÃO
     if ($connect->connect_error) {
         die("Conexão falhou: " . $connect->connect_error);
     }
-?>

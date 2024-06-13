@@ -8,7 +8,7 @@ funcionario ver seus servicos
 - criar arquivo php para adicionar serviços ao bd
 - atualizar pagina para usar o banco de dados para exibir os servicos disponiveis na tela principal
 -criar botao na tela inicial para login/cadastro do usuário
-
+-criar arquivo de insercao de dados de servico.
 
 -------------- CONCLUIDOS ---------------
 criar pagina para adicionar servicos
