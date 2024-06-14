@@ -5,10 +5,9 @@ usuario: se cadastrar e ver seus agendamentos
 funcionario ver seus servicos
 
 -------------- PRÓXIMOS PASSOS ---------------
-- criar arquivo php para adicionar serviços ao bd
+- criar botao na tela inicial para login/cadastro do usuário
 - atualizar pagina para usar o banco de dados para exibir os servicos disponiveis na tela principal
--criar botao na tela inicial para login/cadastro do usuário
--criar arquivo de insercao de dados de servico.
 
 -------------- CONCLUIDOS ---------------
+-criar arquivo de insercao de dados de servico.
 criar pagina para adicionar servicos
