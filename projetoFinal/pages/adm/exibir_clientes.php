@@ -1,5 +1,5 @@
 <?php
-    require_once "../php/conexao/connect.php";
+    require_once "../../php/conexao/connect.php";
 
     if(isset($_GET['id'])) { //verifica se o campo id nao esta vazio usando o metodo GET
         $id = $_GET['id'];
