@@ -1,5 +1,5 @@
 <?php 
-    require_once "../php/conexao/connect.php";
+    require_once "../../php/conexao/connect.php";
 
     $tipo = $_POST["tipo"];
     $valor = $_POST["valor"];
@@ -7,9 +7,10 @@
     $imgLink = $_POST["imgLink"];
     
     $postSv = "INSERT INTO servicos (tipo, valor, descricao,imgLink) VALUES ('$tipo','$valor','$descricao','$imgLink')";
+    
 
     if ($connect->query($postSv) === TRUE) {
-        echo "Contato adicionado com sucesso";
+        echo "Serviço Cadastrado";
     } else {
         echo "Erro ao adicionar contato: " . $connect->error;
     }

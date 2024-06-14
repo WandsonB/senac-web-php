@@ -1,12 +1,12 @@
 <?php
     // PRIMEIRO CRIAR AS VARIAVEIS QUE RECEBERAM AS INFORMAÇÕES DE ACESSO AO BD
         $servername = "localhost"; 
-        $username = "Admin"; 
-        $password = "https://algo.muito.bom/"; 
+        $username = "SuperAdm"; 
+        $password = "./SuperAdm67"; 
         $database = "atendimento";
     
     // COMANDO PARA FAZER A CONEXAO POR MEIO DA FERRAMENTA MYSQLI, PDO, ODBC, SQLSRV.
-    $connect = mysqli($$servername, $username, $password, $database);
+    $connect = new mysqli($servername, $username, $password, $database);
 
     //  VERIFICAR CONEXÃO
     if ($connect->connect_error) {
