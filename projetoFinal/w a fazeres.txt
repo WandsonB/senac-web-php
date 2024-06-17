@@ -6,8 +6,12 @@ funcionario ver seus servicos
 
 -------------- PRÓXIMOS PASSOS ---------------
 - criar botao na tela inicial para login/cadastro do usuário
-- atualizar pagina para usar o banco de dados para exibir os servicos disponiveis na tela principal
+- na area de login ter a opcao para colaborador que tera a distinção de qual o nivel de acesso que o usuario tera(Colaborador ou adm)
+- criar area de cadastro de clientes
+- criar area de agendamento de servico que ira salvar o pedido no perfil do cliente
+
 
 -------------- CONCLUIDOS ---------------
--criar arquivo de insercao de dados de servico.
-criar pagina para adicionar servicos
+- criar arquivo de insercao de dados de servico.
+- criar pagina para adicionar servicos
+- atualizar pagina para usar o banco de dados para exibir os servicos disponiveis na tela principal

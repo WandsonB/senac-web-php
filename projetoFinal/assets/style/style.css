@@ -21,3 +21,12 @@ main{
     flex-wrap: wrap; */
     flex-flow: row wrap;
 }
+
+.card{
+    width: 290px;
+    height: 350px;
+}
+
+.card-body{
+    height: 150px;
+}
